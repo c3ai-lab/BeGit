@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Kryptographie-und-Systemsicherheit---TCR-in-github
+A Project which was started during a university course at the University of Applied Science in Flensburg. 
+The goal of this project is to implement and investigate a TCR like voting mechanism on Pull Requests comments on github.com.
+This is done via a chrome extension.
 
-You can use the [editor on GitHub](https://github.com/c3ai-lab/BeGit/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## How to install
+1. Download Project
+2. Open Google Chrome
+3. In Chrome open this URL chrome://extensions/
+4. There should be a Button "Load unpacked", click it
+5. Choose the "Chrome Extension" directory from the downloaded Project
+6. Get a wallet on the Sokol Testnet - you can use the Metamask Extension to keep track of your wallet
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How to use
+1. First install
+2. Visit a Github Pull Request page
+3. In the Chrome menu click on the TCR for Github Extension
+4. In the Pop-Up window type your wallets adress and private key into the corresponding input fields
+5. Press save
 
-### Markdown
+### Your Options
+You can:
+- post a comment with stake from your wallet
+- vote with a specified amount of tokens on a comment that was staked on
+- start the debug mode in the extension Pop-Up window and payout the tokens staked and voted with on a comment
+- save multiple wallets into the extension and switch between them
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/c3ai-lab/BeGit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
