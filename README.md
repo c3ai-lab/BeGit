@@ -1,5 +1,7 @@
 # Kryptographie-und-Systemsicherheit---TCR-in-github
-Projekt welches innherhalb des Moduls Kryptografie und Systemsicherheit an der Hochschule Flensburg erst wird. Ziel des Projektes ist es eine TCR zu implementieren und diese mittels einer Chrome-Extension in GitHub zu integrieren. 
+A Project which was started during a university course at the University of Applied Science in Flensburg. 
+The goal of this project is to implement and investigate a TCR like voting mechanism on Pull Requests comments on github.com.
+This is done via a chrome extension.
 
 ## How to install
 1. Download Project
