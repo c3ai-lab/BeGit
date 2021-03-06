@@ -1,27 +1,13 @@
-# Kryptographie-und-Systemsicherheit---TCR-in-github
-A Project which was started during a university course at the University of Applied Science in Flensburg. 
-The goal of this project is to implement and investigate a TCR like voting mechanism on Pull Requests comments on github.com.
-This is done via a chrome extension.
+# BeGit
+Open source browser extension to vote on GitHub pullrequest comments with cryptocurrency ethereum.
+Using smart contracts to implement a TCR for pullrequest comments.
 
-## How to install
-1. Download Project
-2. Open Google Chrome
-3. In Chrome open this URL chrome://extensions/
-4. There should be a Button "Load unpacked", click it
-5. Choose the "Chrome Extension" directory from the downloaded Project
-6. Get a wallet on the Sokol Testnet - you can use the Metamask Extension to keep track of your wallet
+## Functionalities
+- Vote on comments with ethereum
+- Stake on your own comments to make profit with good contributions
 
-## How to use
-1. First install
-2. Visit a Github Pull Request page
-3. In the Chrome menu click on the TCR for Github Extension
-4. In the Pop-Up window type your wallets adress and private key into the corresponding input fields
-5. Press save
-
-### Your Options
-You can:
-- post a comment with stake from your wallet
-- vote with a specified amount of tokens on a comment that was staked on
-- start the debug mode in the extension Pop-Up window and payout the tokens staked and voted with on a comment
-- save multiple wallets into the extension and switch between them
+## Advantages
+- Profit through good and welcome comments on pullrequests
+- More activity on pullrequests due to crypto incentives
+- Higher quality due to more eyes on a pull request
 
