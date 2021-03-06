@@ -11,6 +11,10 @@ This is done via a chrome extension.
 5. Choose the "Chrome Extension" directory from the downloaded Project
 6. Get a wallet on the Sokol Testnet - you can use the Metamask Extension to keep track of your wallet
 
+### Change Settings to your liking
+You could change the settings for the blockchain used in the content.js, but by default the extension uses the [sokol](https://blockscout.com/poa/sokol/) test network for Ethereum.
+
+
 ## How to use
 1. First install
 2. Visit a Github Pull Request page
