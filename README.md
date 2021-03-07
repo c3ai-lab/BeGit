@@ -1,4 +1,4 @@
-# Kryptographie-und-Systemsicherheit---TCR-in-github
+# Cryptography and system security -- Voting on GitHub pull request comments with Ethereum Smart Contracts
 A Project which was started during a university course at the University of Applied Science in Flensburg. 
 The goal of this project is to implement and investigate a TCR like voting mechanism on Pull Requests comments on github.com.
 This is done via a chrome extension.
