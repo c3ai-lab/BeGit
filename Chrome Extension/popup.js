@@ -1,13 +1,14 @@
-
 "use strict";
 
+//loading and storing data from google chrome storage
 document.addEventListener('DOMContentLoaded', function(event) {
 
-
+    //get index of current wallet
     chrome.storage.sync.get(['currentWallet'], function(result) {
         document.getElementById("current_wallet").value = result.currentWallet;
         console.log('[SYNC] Currently selected Wallet: ' + result.currentWallet);
     });
+    //check if debug mode is active
     chrome.storage.sync.get(['isDebugMode'], function(result){
         document.getElementById("debug").checked = result.isDebugMode;
         if(result.isDebugMode)console.log('[SYNC] Currently in DebugMode');

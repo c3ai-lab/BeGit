@@ -10,7 +10,6 @@ contract CommentLib {
         comments[_commentId] = address ((new Comment).value(msg.value)(msg.sender)) ;
     }
     function getComment(string memory _commentId) public view returns (address){
-        //        if(bytes(comments[_commentId]).length < 0) return;
         return comments[_commentId];
     }
 }

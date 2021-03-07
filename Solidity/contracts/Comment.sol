@@ -28,7 +28,6 @@ contract Comment {
         stage = Stage.INIT;
         creator = _creator;
         creationDate = block.timestamp;
-//        address(uint160(address(this))).transfer(msg.value);
         votesLUT.push(_creator);
         votes[_creator] = Vote(true, Favor.UP, msg.value);
         totalUp += msg.value;

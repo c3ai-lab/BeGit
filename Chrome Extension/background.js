@@ -1,25 +1,16 @@
 const client_id = "17dd16773831937c851a";
-//const redirectUri = chrome.identity.getRedirectURL("github");
 const client_secret = "286464155f7b4ad72bbae97b281cd2e1d82847a5";
-//let returnString = "THIS IS NOT WORKING";
-// let commentText;
 let commentInfo;
 
 chrome.browserAction.onClicked.addListener(function () {
     chrome.tabs.create({url: 'index.html'});
 });
+//first function when authorizing github, get data from frontend
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log(sender.tab ?
-        "from a content script:" + sender.tab.url :
-        "from the extension");
-    console.log(request.commentInfo);
     commentInfo = request.commentInfo;
-    // if (request.postComment === true) {
-        console.log("Chain: Start");
-        authenticate().then(data => {
-            sendResponse(data);
-        });
-    // }
+    authenticate().then(data => {
+        sendResponse(data);
+    });
     return true;
 });
 
@@ -85,8 +76,8 @@ function postComment(responseText) {
     console.log(token);
 
     let commentJSON = JSON.parse(commentInfo);
-    let body = '{"body": "'+commentJSON.comment+'"}';
-    let url = 'https://api.github.com/repos/'+commentJSON.owner+'/'+commentJSON.repo+'/issues/'+commentJSON.issueNum+'/comments'
+    let body = '{"body": "' + commentJSON.comment + '"}';
+    let url = 'https://api.github.com/repos/' + commentJSON.owner + '/' + commentJSON.repo + '/issues/' + commentJSON.issueNum + '/comments'
     console.log(url)
     return readResponse(
         url,
