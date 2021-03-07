@@ -1,0 +1,157 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{9}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Andrew~Gross}{Andrew~Gross}{[n.d.]}]%
+        {sokolTestnet}
+\bibfield{author}{\bibinfo{person}{et.~al. Andrew~Gross}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Sokol POA Testnet}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://www.poa.network/for-developers/getting-tokens-for-tests/sokol-testnet-faucet}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Community}{Community}{[n.d.]}]%
+        {web3}
+\bibfield{author}{\bibinfo{person}{Web3.js Community}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Web3.js Docs - Ethereum JavaScript API}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://web3js.readthedocs.io/en/v1.3.4/}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Docs}{Docs}{[n.d.]a}]%
+        {rest}
+\bibfield{author}{\bibinfo{person}{GitHub Docs}.}
+  \bibinfo{year}{[n.d.]}\natexlab{a}.
+\newblock \bibinfo{title}{GitHub Docs on GitHub REST API}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://docs.github.com/en/rest}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Docs}{Docs}{[n.d.]b}]%
+        {oauth}
+\bibfield{author}{\bibinfo{person}{GitHub Docs}.}
+  \bibinfo{year}{[n.d.]}\natexlab{b}.
+\newblock \bibinfo{title}{GitHub ocs on Authorizing OAuth Apps}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://docs.github.com/en/developers/apps/authorizing-oauth-apps}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gajek}{Gajek}{2018}]%
+        {medium1}
+\bibfield{author}{\bibinfo{person}{Sebastian Gajek}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{title}{Graded Token-Curated Decisions with Up-/Downvoting
+  — Designing Cryptoeconomic Ranking and Reputation Systems}.
+\newblock \bibinfo{howpublished}{Online Article}.
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/coinmonks/graded-token-curated-decisions-with-up-downvoting-designing-cryptoeconomic-ranking-and-2ce7c000bb51}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gajek}{Gajek}{2019}]%
+        {medium2}
+\bibfield{author}{\bibinfo{person}{Sebastian Gajek}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{2019 is the year of DAOs – Now we urgently need
+  robust Consensus protocols for the People}.
+\newblock \bibinfo{howpublished}{Online Article}.
+\newblock
+\urldef\tempurl%
+\url{https://medium.com/hackernoon/2019-is-the-year-of-daos-9728618873f5}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{GitHub}{GitHub}{[n.d.]}]%
+        {github}
+\bibfield{author}{\bibinfo{person}{GitHub}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{GitHub Repository on GitHub}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/github}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{GitLab.org}{GitLab.org}{[n.d.]}]%
+        {gitlab}
+\bibfield{author}{\bibinfo{person}{GitLab.org}.}
+  \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{GitLab repository on GitLab}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://gitlab.com/gitlab-org/gitlab}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Google}{Google}{[n.d.]}]%
+        {extensionDocs}
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{[n.d.]}\natexlab{}.
+\newblock \bibinfo{title}{Docs on Extensions}.
+\newblock \bibinfo{howpublished}{Website}.
+\newblock
+\urldef\tempurl%
+\url{https://developer.chrome.com/docs/extensions/}
+\showURL{%
+Retrieved February 26, 2021 from \tempurl}
+
+
+\end{thebibliography}
