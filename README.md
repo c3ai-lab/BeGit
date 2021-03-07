@@ -3,6 +3,8 @@ A Project which was started during a university course at the University of Appl
 The goal of this project is to implement and investigate a TCR like voting mechanism on Pull Requests comments on github.com.
 This is done via a chrome extension.
 
+Visit our GitHub page at: https://c3ai-lab.github.io/BeGit/
+
 ## How to install
 1. Login on GitHub
 2. Clone this repository
